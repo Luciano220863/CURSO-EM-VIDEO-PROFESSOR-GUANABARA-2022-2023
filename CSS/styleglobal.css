@@ -12,7 +12,7 @@ body {
 
 .container {
     position: relative;
-    max-width: 790px;
+    max-width: 990px;
     margin: 0 auto;
 }
 
@@ -38,9 +38,9 @@ h6 {
 
 p {
     color: black;
+    text-align: justify;
 }
 
 iframe{
-    max-width: 70%;
-    align-items: center;
+    max-width: 80%;
 }
