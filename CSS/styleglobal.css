@@ -41,6 +41,51 @@ p {
     text-align: justify;
 }
 
-iframe{
+iframe {
     max-width: 80%;
+}
+
+.texto-destaque-red {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(238, 20, 4)
+}
+
+.texto-destaque-black {
+    font-weight: bold;
+    color: rgb(3, 7, 243);
+}
+
+.texto-destaque-grifado {
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: underline;
+    color: rgb(148, 104, 104);
+}
+
+.texto-destaque-resposta{
+    color: rgb(233, 238, 231);
+    background-color: #046804;
+    font-weight: bold;
+}
+
+blockquote {
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    text-decoration: wavy;
+    border-bottom: double 3px rgb(97, 94, 94);
+    border-radius: 10px;
+    background-color: #808080;
+}
+
+ol, ul, dt, dd{
+    font-style: italic;
+    font-size: 16px;
+    color: darkblue;
 }
