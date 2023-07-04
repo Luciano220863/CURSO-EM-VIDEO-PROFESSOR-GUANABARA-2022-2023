@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+    <meta name="description" content="Esta aula vai ajudar a entender e compreender 
+quato a utilização das imagens, suas resoluções e tamanhos">
+    <link rel="shortcut icon" href="./../../../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./../../../CSS/styleglobal.css">
+    <title>M01C08|Semântica na HTML5 é importante</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h5>M01C08</h5>
+        <h1>
+            Capítulo 8 Aula 1 <br> Semântica na HTML5 é importante <br> FORMATAÇÃO DE TEXTOS
+        </h1>
+    </div>
+    <div class="container">
+        <ul type="square">
+            <li>Você sabe qual é a diferença entre HTML4 e HTML5?
+            <li>Sabe o que significa a semântica da HTML5?</li>
+            <li>Sabe pesquisar quais são as tags obsoletas da linguagem HTML?</li>
+            <li>Você ainda usa tags como center, font color, body bgcolor e coisas do tipo?</li>
+            <li>Sabia que essas tags não podem mais ser usadas?</li>
+        </ul>
+    </div><br>
+    <center>
+        <h4>Veja a resposta para todas essas perguntas
+            assistindo esse vídeo até o
+            final.</h4>
+        <iframe width="650" height="400" src="https://www.youtube.com/embed/HaSgt1hK2Fs"
+            title="Semântica na HTML5 é importante - @Curso em Vídeo HTML5 e CSS3" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </center>
+    <div class="container">
+        <h3>Tópicos deste vídeo</h3>
+        <ul type="circle">
+            <li>Capítulo 08, aula 01</li>
+            <li>Introdução</li>
+            <li>É possível migrar um site?</li>
+            <li>O que é semântica</li>
+            <li>Comparando HTML4 e HTML5</li>
+            <li>Ainda existe bgcolor no body?</li>
+            <li>Tags obsoletas da HTML5</li>
+            <li>Não use mais as tags center, font, etc</li>
+            <li>Entendendo forma e significado</li>
+            <li>Mas como uso cores?</li>
+            <li>Onde vejo os sites oficiais?</li>
+            <li>Como consigo um certificado desse curso?</li>
+            <li>Qual é o próximo assunto?</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Você já ouviu falar de semântica?</h2>
+
+        <p>Tá aí mais uma palavra bonita pra gente aprender:
+            “semântica”. Se você nunca
+            ouviu falar nela, provavelmente não está entendendo direito, mas
+            saiba que a maior
+            mudança da HTML4 para a HTML5 é o acréscimo da semântica aos
+            elementos.</p>
+        <p>Vamos procurar no dicionário, e vou fazer isso no <span class="texto-destaque-black">Michaelis</span>,
+            que tem
+            uma versão online e gratuita. Segundo o pai-dos-burros:</p>
+        <center>
+            <img src="./../img/fig1.png" width="150" alt="fig1">
+            <blockquote>“Semântica é o significado dos
+                vocábulos, por oposição à sua
+                forma.”</blockquote>
+        </center>
+        <p>Analisando a frase acima percebemos que uma palavra pode ter
+            <span class="texto-destaque-black">forma</span> e <span class="texto-destaque-black">significado</span>, e
+            que a <span class="texto-destaque-black">semântica</span> dá mais valor ao significado.
+            Na HTML4, tínhamos tags como <span class="texto-destaque-red">&lt;b&gt;</span> que colocava um texto em
+            negrito, <span class="texto-destaque-red">&lt;u&gt;</span> que
+            colocava o termo sublinhado e <span class="texto-destaque-black">&lt;blink&gt;</span> que fazia o texto
+            piscar. <br> Essas eram tags que
+            representavam apenas uma <span class="texto-destaque-red">forma</span>. Você dizia que queria um texto
+            sublinhado, mas
+            qual era o motivo? Qual era o sentido de sublinhar alguma coisa? Vamos ver um
+            exemplo:
+        </p>
+        <blockquote>Juvenal era um sujeito de muita sorte. <br> E já
+            começou de pequeno, onde morou na &lt;u&gt;Rua Marquês
+            de Lira Filho&lt;/u&gt;<br> um local de fácil acesso ao
+            Centro da cidade.</blockquote>
+    </div>
+    <div class="container">
+        <p></p>
+        <p></p>
+        <blockquote>Juvenal era um sujeito de muita sorte. <br>E já
+            começou de pequeno onde morou na <span class="texto-destaque-resposta">&lt;address&gt;</span>Rua
+            Marquês de Lira Filho <span class="texto-destaque-resposta">&lt;/address&gt;</span>,
+            <br> um local de
+            fácil acesso ao Centro da cidade.
+        </blockquote>
+    </div>
+    <div class="container">
+        <p>Note que agora, usamos a tag
+        <address> para dar um significado ao destaque que
+            fizemos. Estamos chamando atenção para Rua Marquês de Lira Filho por se tratar do
+            endereço da pessoa. No caso, um navegador de celular pode até sugerir que você veja
+            o mapa do local e trace a rota para chegar lá. Viu? SIGNIFICADO!</p>
+            <p>Sendo assim, em HTML5, vemos de forma bastante evidente a presença do chamado
+                HTML semântico ou tags semânticas ou ainda o conteúdo semântico. Você quer
+                que um endereço apareça na forma de um texto sublinhado? Use CSS para configurar
+                isso, a HTML serve para dar sentido ao conteúdo. É assim que tudo vai funcionar.</p>
+            <p>Desde a mudança de versões, a W3C - consórcio responsável por normatizar a HTML
+                - tem dado muito valor por adicionar novas tags que tenham mais significado e a tirar
+                algumas tags que só se focam no efeito visual (forma) de apresentação. O intuito é
+                deixar a apresentação gráfica por conta das CSS.</p>
+    </div>
+    <div class="container">
+        <h1>Tags morrem, você sabia?</h1>
+        <p>Existem tags que ainda funcionam hoje em dia, mas estão prestes a
+            serem consideradas obsoletas, como as tags <span class="texto-destaque-resposta">&lt;font&gt;</span> e <span
+                class="texto-destaque-resposta">&lt;center&gt;</span>.</p>
+        <p>E existem outras que simplesmente foram excluídas das versões mais
+            atuais da HTML5, como é o caso do <span class="texto-destaque-resposta">&lt;applet&gt;</span> e <span
+                class="texto-destaque-resposta">&lt;blink&gt;</span>.</p>
+
+
+
+    </div>
