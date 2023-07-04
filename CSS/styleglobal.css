@@ -70,14 +70,13 @@ iframe {
 }
 
 blockquote {
+    width: 990px;
     text-align: center;
     font-family: serif;
     font-weight: bold;
     font-size: 12px;
-    margin-top: 10px;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    text-decoration: wavy;
+    margin-left: 0;
+    padding: 5px;
     border-bottom: double 3px rgb(97, 94, 94);
     border-radius: 10px;
     background-color: #808080;
@@ -87,4 +86,8 @@ ol, ul, dt, dd{
     font-style: italic;
     font-size: 16px;
     color: darkblue;
+}
+
+img{
+    border-radius: 10px;
 }
