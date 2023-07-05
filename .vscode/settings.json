@@ -928,5 +928,13 @@
     "voluptate",
     "Voluptate",
     "Voluptatem"
-  ]
+  ],
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:CURSO-EM-VIDEO(PROFESSOR-GUANABARA)2022-2023}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  }
 }
