@@ -46,6 +46,23 @@ iframe {
     max-width: 80%;
 }
 
+.texto-destaque-tachado {
+    text-decoration: line-through;
+    color: #fff;
+    background-color: #4682B4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-destaque-bg{
+    font-size: 42px;
+    color: #4682B4;
+}
+
+.texto-destaque-min {
+    font-size: 14px;
+    color: #800080;
+}
+
 .texto-destaque-red {
     font-weight: bold;
     font-style: italic;
