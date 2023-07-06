@@ -1,9 +1,284 @@
 <html>
-    <head>
-        <title>Meu site HTML4</title>
-    </head>
-    <body bgcolor="blue">
-        Eu moro na <u>Rua dos Capixabas, 229 - Botafogo - RJ</u>
+
+<head>
+    <title>Meu site HTML4</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid rgb(119, 115, 115);
+            border-collapse: collapse;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            font-style: italic;
+            font-family: 'cursive';
+            font-size: 16px;
+        }
+        th{
+            background-color: blue;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        table tr:nth-child(odd){
+            background-color: #fff;
+            color: blue;
+        }
+
+        table tr:nth-child(even){
+            background-color: #088880;
+            color: #fff;
+    
+}
+        .container {
+            position: relative;
+            max-width: 990px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<div class="container">
+
+    <body bgcolor="#d4d4d4">
+        Eu moro na <u>Rua dos Capixabas, 229 -
+            Botafogo - RJ</u>
         <marquee behavior="" direction="right">Teste de Marquee</marquee>
-    </body>
+
+        <h1>Exemplo de site em HTML4</h1>
+
+        <p>Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Quam, delectus a! Fugit
+            asperiores eius autem quae praesentium cupiditate
+            ipsum incidunt aut pariatur! Maiores voluptatem
+            culpa iure totam id? Excepturi, eveniet.</p>
+
+        <p>Note que muitos paramêtros como &lt;bgcolor&gt;
+            já não se usa, esta TAG era comum no HTML4</p>
+
+        <p>ALgumas ou melhor muitas TAGs foram
+            descontinuadas. <br>
+            <center>
+                <img src="./../img/fig1.png" alt="fig1">
+            </center>
+            conforme a convenção determinada pela associação
+            W3C, que determinou novas regras com a criação CSS
+            e o HTML priorizando o foco na SEMÂNTICA.
+        </p>
+
+        <p>Vejamos abaixo algumas TAGs que foram
+            descontinuadas ou depreciadas no html e que foram
+            substituidas por atribuições semânticas no CSS.</p>
+
+
+        <p>Assim sendo defini-se a TERMOLOGIA de SEMÂNTICA:
+            Elementos semânticos do HTML5 são aqueles que
+            descrevem claramente seu significado de uma maneira
+            que seja legível tanto
+            para humanos quanto para máquinas.</p>
+
+</div>
+
+<div class="container">
+    <table>
+        <tr>
+            <th>TAG</th>
+            <th>DESCRIÇÕES</th>
+            <th>ETIQUETAS ALTERNATIVAS</th>
+        </tr>
+        <tr>
+            <td>&lt;basefont&gt;</td>
+            <td>Para especificar uma base</td>
+            <td>folhas de estilo de fonte.</td>
+        </tr>
+        <tr>
+            <td>&lt;font&gt;</td>
+            <td>Ele especifica o texto, tamanho e cor da fonte.</td>
+            <td>família da fonte, tamanho da fonte, cor</td>
+        </tr>
+        <tr>
+            <td>&lt;center&gt;</td>
+            <td>Ele especifica um Texto centralizado.</td>
+            <td>alinhamento de texto: centro</td>
+        </tr>
+        <tr>
+            <td>&lt;strike&gt;</td>
+            <td>Ele especifica um texto tachado.</td>
+            <td>decoração de texto.</td>
+        </tr>
+        <tr>
+            <td>&lt;grande&gt;</td>
+            <td>Define texto grande.</td>
+            <td>Use propriedades CSS ou tags de título.</td>
+        </tr>
+        <tr>
+            <td>&lt;dir&gt;</td>
+            <td>Ele especifica uma lista de diretórios.</td>
+            <td>tag ul</td>
+        </tr>
+        <tr>
+            <td>&lt;isindex&gt;</td>
+            <td>Ele especifica um campo de entrada de linha única</td>
+            <td>tag de formulário</td>
+        </tr>
+        <tr>
+            <td>&lt;applet&gt;</td>
+            <td>Ele especifica um miniaplicativo.</td>
+            <td>tag do objeto</td>
+        </tr>
+        <tr>
+            <td>&lt;acronym&gt;</td>
+            <td>É usado para definir uma seção noframe.</td>
+            <td>Em vez disso, use um iframe e CSS ou use a inclusão do lado do servidor para gerar páginas completas com
+                as várias
+                partes invariáveis ​​mescladas.</td>
+        </tr>
+        <tr>
+            <td>&lt;xmp&gt;</td>
+            <td>Processa o texto entre as marcas de início e fim sem interpretar o HTML entre e usando uma fonte
+                monoespaçada.</td>
+            <td>Em vez disso, use pré e código</td>
+        </tr>
+        <tr>
+            <td>&lt;noembed&gt;</td>
+            <td>Uma tag facilita o fornecimento de conteúdo alternativo que informa aos usuários o que eles estão
+                perdendo.</td>
+            <td>Use object em vez de embed quando o fallback for necessário.</td>
+        </tr>
+        <tr>
+            <td>&lt;texto simples&gt;</td>
+            <td>É usado para renderizar todo o texto no documento exatamente como foi digitado.</td>
+            <td>Em vez disso, use o tipo MIME “text / plain”.</td>
+        </tr>
+        <tr>
+            <td>&lt;frameset&gt;</td>
+            <td>Ele especifica um conjunto de quadros.</td>
+            <td>Em vez disso, use iframe e CSS ou use a inclusão do lado do servidor para gerar páginas completas com as
+                várias partes
+                invariáveis ​​mescladas.</td>
+        </tr>
+        <tr>
+            <td>&lt;frame&gt;</td>
+            <td>Ele especifica um quadro</td>
+            <td>Em vez disso, use iframe e CSS ou use a inclusão do lado do servidor para gerar páginas completas com as
+                várias partes
+                invariáveis ​​mescladas</td>
+        </tr>
+        <tr>
+            <td>&lt;u&gt;</td>
+            <td>Ele especifica um texto sublinhado.</td>
+            <td>decoração de texto.</td>
+        </tr>
+        <tr>
+            <td>&lt;tt&gt;</td>
+            <td>Define o texto do teletipo</td>
+            <td>Use propriedades CSS.</td>
+        </tr>
+        <tr>
+            <td>&lt;s&gt;</td>
+            <td>Especifique um texto tachado.</td>
+            <td>decoração de texto</td>
+        </tr>
+    </table>
+</div><br>
+<div class="container">
+    <p><strong>Atributos HTML obsoletos</strong> : vários atributos de tag também foram removidos. A seguir está a
+        tabela que removeu os
+        atributos e suas tags impactadas (elementos), ou seja. elementos dos quais esses atributos foram removidos
+        permanentemente.</p>
+</div>
+<div class="container">
+    <table>
+        <tr>
+            <th>ATRIBUTOS REMOVIDOS</th>
+            <th>TAGS IMPACTADAS</th>
+            <th>ALTERNATIVAS</th>
+        </tr>
+        <tr>
+            <td>rev</td>
+            <td>a, link</td>
+            <td>Use o atributo rel</td>
+        </tr>
+        <tr>
+            <td>longdesc</td>
+            <td>img, iframe</td>
+            <td>Use um elemento regular para vincular à descrição.</td>
+        </tr>
+        <tr>
+            <td>versão</td>
+            <td>Html</td>
+            <td>Desnecessário, não é obrigatório mencionar.</td>
+        </tr>
+        <tr>
+            <td>charset</td>
+            <td>a, link</td>
+            <td>Em vez disso, use um cabeçalho HTTP Content-Type no recurso vinculado.</td>
+        </tr>
+        <tr>
+            <td>nome</td>
+            <td>a, img</td>
+            <td>Em vez disso, use o atributo id.</td>
+        </tr>
+        <tr>
+            <td>nohref</td>
+            <td>entrada</td>
+            <td>Use img em vez de entrada para mapas de imagem.</td>
+        </tr>
+        <tr>
+            <td>alvo</td>
+            <td>ligação</td>
+            <td>Desnecessário, não é obrigatório mencionar.</td>
+        </tr>
+        <tr>
+            <td>esquema</td>
+            <td>meta</td>
+            <td>Use apenas um esquema por campo ou torne a declaração do esquema parte do valor.</td>
+        </tr>
+        <tr>
+            <td>codetipo</td>
+            <td>objeto</td>
+            <td>Use os atributos de dados e tipo para invocar plug-ins.</td>
+        </tr>
+        <tr>
+            <td>declarar</td>
+            <td>objeto</td>
+            <td>Repita o elemento de objeto completamente toda vez que o recurso for reutilizado.</td>
+        </tr>
+        <tr>
+            <td>espera</td>
+            <td>objeto</td>
+            <td>Otimize o recurso vinculado para que ele carregue rapidamente ou, pelo menos, de forma incremental.</td>
+        </tr>
+        <tr>
+            <td>tipo de valor</td>
+            <td>param</td>
+            <td>Sem declarar tipos de valor, use atributos de nome e valor.</td>
+        </tr>
+        <tr>
+            <td>língua</td>
+            <td>roteiro</td>
+            <td>Use o atributo type.</td>
+        </tr>
+        <tr>
+            <td>abbr</td>
+            <td>td, th</td>
+            <td>Use um texto que comece de maneira não ambígua e concisa e inclua qualquer texto mais elaborado depois disso.</td>
+        </tr>
+        <tr>
+            <td>eixo</td>
+            <td>td, th</td>
+            <td>O atributo de escopo deve ser usado.</td>
+        </tr>
+    </table>
+
+</div>
+
+
+
+
+
+</body>
+
 </html>
