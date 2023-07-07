@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M01C08_Aula03 Semântica | Principais Formatações</title>
+    <link rel="stylesheet" href="./../../../../CSS/styleglobal.css">
+    <link rel="shortcut icon" href="./../../../../assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h4>M01C08_Aula03</h4>
+    <div class="container">
+
+        <h1>Semântica | Principais Formatações</h1>
+    </div>
+    <div class="container">
+        <h2>Você sabe usar marca texto?</h2>
+        <center>
+            <img src="./../img/fig5.png" width="100" alt="fig5">
+        </center>
+        <p>Provavelmente você já viu ou usou uma dessas
+            canetas marca texto em
+            seu dia-a-dia. Elas servem para você marcar
+            uma parte do texto na qual
+            você quer dar uma ênfase descomunal, já que
+            se trata de um <mark>trecho muito valioso</mark> para
+            você,
+            assim como acabamos de fazer.</p>
+        <p>Para fazer essas marcas em HTML5, usamos a
+            tag <span class="texto-destaque-
+        black">&lt;mark&gt;…&lt;/mark&gt;</span> para
+            delimitar o texto que queremos demarcar,
+            como se estivéssemos usando uma caneta marcador</p>
+    </div>
+    <div class="container">
+        <center>
+            <img src="./../img/fig3.png" width="100" alt="fig3">
+            <blockquote><span class="texto-destaque-
+        negrito">COMO FAÇO PARA MUDAR
+                    A COR DA CANETA?</span> Com
+                certeza
+                você já deve estar se perguntando
+                como usar outras cores. Pois saiba
+                que isso é totalmente possível,
+                contanto que as configurações sejam
+                especificadas nas folhas de estilo
+                CSS.
+                <br> Como exemplificado logo abaixo!
+                <br> <span class="texto-destaque-fig">&#x1F447</span>
+            </blockquote>
+    </div>
+    </center>
+    <div class="secao-destaque-html"><br>
+        <p class="text-html">&lt;style&gt;</p>
+        <p class="text-html">mark {</p>
+        <p class="text-html">color: <span class="texto-destaque-black">blue</span>;</p>
+        <p class="text-html">background-color: <span class="texto-destaque-negrito">#726f6f</span>;</p>
+        <p class="text-html">}</p>
+        <p class="text-html">&lt;/style&gt;</p>
+        <br>
+    </div>
+    <div class="container">
+        <h2>Outras formatações</h2>
+        <p><span class="texto-destaque-bg">&lt;big&gt;</span> morreu, mas o <span
+                class="texto-destaque-min">&lt;small&gt;</span> ainda
+            sobrevive</p>
+        <p>Tem certas coisas que simplesmente não são fáceis de entender. A tag <span
+                class="texto-destaque-bg">&lt;big&gt;</span> (que deixava o texto maior) está depreciada pela <span
+                class="texto-destaque-black">HTML5</span>, mas a tag <span class="texto-destaque-min">&lt;small&gt;
+            </span> (que deixa o texto <span class="texto-destaque-
+                red">&gt;</span> segue firme e forte na vida da
+            linguagem).</p>
+        <center>
+            <img src="./../img/fig14.png" width="100" alt="fig14">
+
+            <blockquote>E não adianta ficar me olhando com essa cara de reprovação. Eu não tenho culpa nenhuma por
+                conta dessa decisão, sou apenas um mero professor que se foca em mostrar os fatos, não em fazê-los
+                ter um sentido claro. Tem certas coisas que a gente não questiona, só aceita que dói menos. <br>
+                <small>Leias sempre as letras pequenas, apesar de serem pequenas elas tem sua importância para o
+                    contexto </small>
+            </blockquote>
+        </center>
+    </div>
+    <div class="container">
+        <h3 class="texto-destaque-tachado">Texto deletado</h3>
+        <p>Antigamente existia a tag &lt;strike&gt;, que hoje também está depreciada pela última
+            versão da HTML. No lugar dela entrou a tag &lt;del&gt;, que significa que <del>o texto está ali, pode
+                até ser lido, mas deve ser desconsiderado</del> pelo leitor. Exatamente como eu
+            acabei de fazer.</p>
+        <div>
+            <h4>Vejamos como é representada esta linha codificada HTML e tbm como é o código CSS </h4>
+            <div class="secao-destaque-html">
+                <br>
+                <p class="text-html">Antigamente existia a tag <span class="texto-destaque-negrito">&lt;<span
+                            class="texto-destaque-tachado">strike</span>&gt;</span> versão da HTML.</p>
+                <div class="text-html">No lugar dela entrou tag <span class="texto-destaque-black">&lt;del&gt;</span>,
+                    que significa que <span class="texto-destaque-black">&lt;del&gt;</span> o texto está ali, pode
+
+                    até ser lido, mas deve ser desconsiderado <span class="texto-destaque-black">&lt;del&gt;</span>
+                    pelo leitor.
+                    <p class="texto-destaque-red">Exatamente como eu acabei de fazer.</p><br>
+                </div>
+            </div><br><br>
+            <div class="secao-destaque-html">
+                <br>
+                <p class="text-html">&lt;style&gt;</p>
+                <p class="text-html"><span class="texto-destaque-black">del</span> {</p>
+                <p class="text-html">color: <span class="texto-destaque-red"> #DC143C</span>;</p>
+                <p class="text-html">font-style: italic;</p>
+                <p class="text-html">}</p>
+
+                <p class="text-html">&lt;style&gt;</p>
+                <br>
+            </div>
+            <div class="container">
+                <h2>Texto inserido</h2>
+                <p>O <span class="texto-destaque-grifado">texto inserido</span> é o exato oposto do <span class="texto-destaque-tachado">texto deletado</span> que vimos anteriormente. Nesse
+                caso, se colocarmos um texto qualquer dentro de <span class="texto-destaque-red">&lt;ins&gt;</span> e <span class="texto-destaque-red">&lt;/ins&gt;</span>, estamos dizendo
+                que <span class="texto-destaque-grifado">o texto está ali, deve ser lido e você deve prestar atenção nele</span>. É o que fazíamos anteriormente ao utilizar a tag <span class="texto-destaque-red">&lt;u&gt;</span> para sublinhar um texto.</p>
+
+            </div>
+            <div class="container">
+<h2>Textos sobrescrito e subscrito</h2>
+<center>
+    <img src="./../img/fig6.png" width="100" alt="fig6">
+</center>
+<p>
+    Quantas vezes você tentou escrever um x<span class="texto-destaque-black"><sup>2</sup></span> ou um H<span class="texto-destaque-red"><sub>2</sub></span>O em
+    um documento e ficou na dúvida de como fazer pra esses
+    números ficarem pequeninos ali em cima ou embaixo. Pois
+    a HTML tem as tags <span class="texto-destaque-resposta">&lt;sub&gt;</span>. e <span class="texto-destaque-resposta">&lt;sup&gt;</span> justamente para essa
+            finalidade. Ao analisar os exemplos de código que apontei
+            no início desse documento, você vai perceber melhor a
+            diferença entre eles.
+</p>
+            </div>
+
+
+
+
+</body>
+
+</html>
