@@ -32,6 +32,7 @@ concisa
 conjunto
 contexto
 convenção
+Corrigindo
 cupiditate
 declaração
 declarar
@@ -54,6 +55,7 @@ eius
 eixo
 elaborado
 elemento
+Encerrando
 entrada
 escrever
 escrito
@@ -79,9 +81,11 @@ incidunt
 inclua
 inclusão
 informa
+Inserindo
 interpretar
 invariáveis
 invertido
+invertidos
 invocar
 iure
 justamente
@@ -92,6 +96,7 @@ ligação
 língua
 linha
 lista
+Mantendo
 mapas
 máquinas
 mencionar
@@ -114,6 +119,7 @@ perdendo
 permanentemente
 priorizando
 Processa
+profissional
 programa
 propriedades
 quadro
@@ -126,10 +132,12 @@ removidos
 renderizar
 Repita
 representada
+representar
 reutilizado
 roteiro
 substituidas
 tabela
+tabulação
 tachado
 teletipo
 tentou
