@@ -1,4 +1,6 @@
 # Custom Dictionary Words
+Abreviações
+adorando
 alinhamento
 ALTERNATIVAS
 alternativo
@@ -14,10 +16,13 @@ cabeçalho
 Capixabas
 carregue
 centralizado
+Citações
 claramente
 codetipo
+comando
 completamente
 completas
+computador
 comum
 concisa
 conjunto
@@ -38,11 +43,13 @@ Desnecessário
 determinou
 digitado
 diretórios
+diria
 eius
 eixo
 elaborado
 elemento
 entrada
+escrito
 especifica
 especificar
 Especifique
@@ -55,15 +62,18 @@ formulário
 fornecimento
 humanos
 impactadas
+ÍMPAR
 incidunt
 inclua
 inclusão
 informa
 interpretar
 invariáveis
+invertido
 invocar
 iure
 legível
+Leigos
 ligação
 língua
 linha
@@ -76,6 +86,7 @@ miniaplicativo
 monoespaçada
 muitas
 noframe
+número
 objeto
 obrigatório
 Otimize
@@ -84,9 +95,11 @@ perdendo
 permanentemente
 priorizando
 Processa
+programa
 propriedades
 quadro
 quadros
+rápido
 recurso
 regras
 removeu

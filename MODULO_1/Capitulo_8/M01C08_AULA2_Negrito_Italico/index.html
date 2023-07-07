@@ -11,6 +11,7 @@ quato a utilização das imagens, suas resoluções e tamanhos">
     <link rel="stylesheet" href="./../../../CSS/styleglobal.css">
     <title>M01C08 - Aula 002|Semântica - Formatação "Negrito e Itálico"</title>
 
+
 </head>
 
 <body>
@@ -19,8 +20,6 @@ quato a utilização das imagens, suas resoluções e tamanhos">
         <h1>Semântica - Formatação "Negrito e Itálico"</h1>
     </div>
     <div class="container">
-
-
         <p>Antes de começar, fique de olho
             nos exercícios, como você já deve saber, esse material é para ser consumido
             juntamente com os demais conteúdos disponibilizados no nosso
@@ -72,21 +71,68 @@ quato a utilização das imagens, suas resoluções e tamanhos">
     </div>
     <div class="container">
         <h1><span class="texto-destaque-black">Negrito</span> e <span class="texto-destaque-red">Itálico</span></h1>
-        <p>Vamos ver agora algumas formatações bem usadas das últimas versões da linguagem, começando pelos famosos <span class="texto-destaque-black">negrito</span> e <span class="texto-destaque-red">itálico</span>.</p>
-        <p>Como vimos anteriormente, existem as tags <span class="texto-destaque-negrito">&lt;b&gt;</span> e 
+        <p>Vamos ver agora algumas formatações bem usadas das últimas versões da linguagem, começando pelos famosos
+            <span class="texto-destaque-black">negrito</span> e <span class="texto-destaque-red">itálico</span>.
+        </p>
+        <p>Como vimos anteriormente, existem as tags <span class="texto-destaque-negrito">&lt;b&gt;</span> e
             <span class="texto-destaque-negrito">&lt;i&gt;</span> para essa tarefa, mas elas não
             possuem significado e focam apenas na forma, sendo assim, são pouco semânticos.
             Sendo assim, recomendamos que você passe a usar as tags <span
-                class="texto-destaque-negrito">&lt;strong&gt;</span> e <span class="texto-destaque-negrito">&lt;em&gt;</span> para
-            realizar essas mesmas formatações visuais, só que agora com sentido.</p>
+                class="texto-destaque-negrito">&lt;strong&gt;</span> e <span
+                class="texto-destaque-negrito">&lt;em&gt;</span> para
+            realizar essas mesmas formatações visuais, só que agora com sentido.
+        </p>
         <p>A tag <span class="texto-destaque-negrito">&lt;strong&gt;</span> significa que o termo delimitado possui
             força dentro da frase. Logo,
             ele aparecerá em <span class="texto-destaque-black">negrito</span>.</p>
         <p>Já a tag <span class="texto-destaque-negrito">&lt;em&gt;</span> significa que queremos dar <span
                 class="texto-destaque-grifado">ênfase</span> (do Inglês emphasis) ao termo.
             Logo, ele aparecerá em <span class="texto-destaque-red">itálico</span>.</p>
-        <p>Note que, ao usar <span class="texto-destaque-negrito">&lt;strong&gt;</span> e <span class="texto-destaque-negrito">&lt;em&gt;</span> no lugar de <span class="texto-destaque-negrito">&lt;b&gt;</span> e <span class="texto-destaque-negrito">&lt;i&gt;</span>, damos mais significado aos nossos termos e conteúdos. Como eles vão ser representados visualmente (forma), vai depender das nossas folhas de estilo CSS.</p>
-    
-    </body>
+        <p>Note que, ao usar <span class="texto-destaque-negrito">&lt;strong&gt;</span> e <span
+                class="texto-destaque-negrito">&lt;em&gt;</span> no lugar de <span
+                class="texto-destaque-negrito">&lt;b&gt;</span> e <span class="texto-destaque-negrito">&lt;i&gt;</span>,
+            damos mais significado aos nossos termos e conteúdos. Como eles vão ser representados visualmente (forma),
+            vai depender das nossas folhas de estilo CSS.</p>
+    </div>
+    <div class="container">
+        <h2>Você sabe usar marca texto?</h2>
+        <center>
+            <img src="./../img/fig5.png" width="100" alt="fig5">
+        </center>
+        <p>Provavelmente você já viu ou usou uma dessas canetas marca texto em
+            seu dia-a-dia. Elas servem para você marcar uma parte do texto na qual
+            você quer dar uma ênfase descomunal, já que se trata de um <mark>trecho muito valioso</mark> para você,
+            assim como acabamos de fazer.</p>
+        <p>Para fazer essas marcas em HTML5, usamos a tag <span
+                class="texto-destaque-black">&lt;mark&gt;…&lt;/mark&gt;</span> para
+            delimitar o texto que queremos demarcar, como se estivéssemos usando uma caneta marcador</p>
+        <div class="container">
+            <center>
+                <img src="./../img/fig3.png" width="100" alt="fig3">
+                <blockquote><span class="texto-destaque-negrito">COMO FAÇO PARA MUDAR
+                        A COR DA CANETA?</span> Com certeza
+                    você já deve estar se perguntando como usar outras cores. Pois saiba
+                    que isso é totalmente possível, contanto que as configurações sejam
+                    especificadas nas folhas de estilo CSS. 
+                    <br> Como exemplificado logo abaixo! <br> <span class="texto-destaque-fig">&#x1F447</span></blockquote>
+            </center>
+            <div class="secao-destaque-html"><br>
+                <p class="text-html">&lt;style&gt;</p>
+                <p class="text-html">mark {</p>
+                <p class="text-html">color: <span class="texto-destaque-red">red</span>;</p>
+                <p class="text-html">}</p>
+                <p class="text-html">&lt;/style&gt;</p>
+                <br>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+</body>
 
 </html>

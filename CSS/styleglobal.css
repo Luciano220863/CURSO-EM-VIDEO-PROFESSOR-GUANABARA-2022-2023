@@ -2,6 +2,22 @@ body {
     background-color: #d2d2d2;
 }
 
+mark {
+    color: blue;
+    background-color: chocolate;
+}
+.texto-destaque-fig{
+    font-size: xx-large;
+}
+.secao-destaque-html {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    background-color: #000;
+    color: #fff;
+    padding-left: 45px;
+}
+
 .container-full {
     position: relative;
     max-width: 100%;
@@ -36,14 +52,13 @@ h6 {
     color: blue;
 }
 
-p {
-    color: black;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
 iframe {
     max-width: 80%;
+}
+
+.text-html {
+    color: chartreuse;
+    margin-left: 25px;
 }
 
 .texto-destaque-tachado {
@@ -53,7 +68,7 @@ iframe {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.texto-destaque-bg{
+.texto-destaque-bg {
     font-size: 42px;
     color: #4682B4;
 }
@@ -82,12 +97,13 @@ iframe {
     color: rgb(148, 104, 104);
 }
 
-.texto-destaque-resposta{
+.texto-destaque-resposta {
     color: rgb(233, 238, 231);
     background-color: #046804;
     font-weight: bold;
 }
-.texto-destaque-negrito{
+
+.texto-destaque-negrito {
     color: #fff;
     font-weight: bolder;
     background-color: #726f6f;
@@ -106,12 +122,15 @@ blockquote {
     background-color: #808080;
 }
 
-ol, ul, dt, dd{
+ol,
+ul,
+dt,
+dd {
     font-style: italic;
     font-size: 16px;
     color: darkblue;
 }
 
-img{
+img {
     border-radius: 10px;
 }
