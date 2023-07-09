@@ -31,6 +31,12 @@ mark {
     margin: 0 auto;
 }
 
+.container1 {
+    position: relative;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
 h1,
 h2,
 h3 {

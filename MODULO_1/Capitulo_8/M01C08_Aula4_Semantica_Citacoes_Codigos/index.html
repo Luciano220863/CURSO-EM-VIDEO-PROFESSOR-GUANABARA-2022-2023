@@ -53,6 +53,142 @@ quato a utilização das imagens, suas resoluções e tamanhos">
             <li>CSS está aí</li>
         </ul>
     </div>
+    <div class="container">
+        <h2>Trechos de código</h2>
+        <p>Nós somos (ou seremos) programadores, e por isso compartilhamos muito códigofonte
+            em diversas linguagens. Para isso, existe a tag <span class="texto-destaque-black">&lt;code&gt;</span> da
+            HTML onde você pode
+            delimitar seu código. A principal vantagem no uso dessa tag é a o valor semântico que
+            ela representa, indicando ao navegador que se trata de um código de computador.
+            Porém, existe também um efeito visual, pois as letras ficam no modo mono-espaçadas
+            (monospace), o que facilita bastante a leitura do código. Analise, por exemplo, o
+            trecho de código a seguir:</p>
+    </div>
+    <div class="container">
+        <center>
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><img src="./img/fig1.png" width="265" alt="fig1">
+                    </td>
+                    <td><img src="./img/fig2.png" width="250" alt="fig2">
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <center>
+        <blockquote><span class="texto-destaque-black">AS TAGS, UNIDAS JAMAIS SERÃO VENCIDAS!</span> No exemplo
+            acima você pode perceber que adicionamos uma tag dentro da outra.
+            Quando isso acontece, é como se elas juntassem suas forças para gerar
+            um resultado ainda mais poderoso. É possível então juntar <span
+                class="texto-destaque-red">&lt;strong&gt;</span>
+            e
+            <span class="texto-destaque-red">&lt;em&gt;</span> e gerar um resultado como esse:<br> <span
+                class="texto-destaque-grifado">em negrito e em itálico ao mesmo tempo</span>!
+        </blockquote>
+    </center>
+    </div>
+    <div class="container">
+        <h2>“Citações”</h2>
+        <p>Se você já escreveu um texto sequer na sua vida, com certeza já
+            teve que fazer citações. Uma citação é um trecho de texto, escrito
+            ou dito por outra pessoa, que vai ilustrar perfeitamente algo que
+            você quer explicar</p>
+        <center>
+            <img src="./img/fig3.png" width="100" alt="fig3">
+        </center>
+        <p>Normalmente, uma citação aparece entre aspas ou com as
+            margens deslocadas em relação ao texto. Confuso pra você? Pois
+            volte na página 2 desse capítulo e lá você vai ver três citações escritas. Com certeza
+            você vai descobrir</p>
+        <p>Para criar uma citação em HTML, podemos usar a tag <span class="texto-destaque-black">&lt;q&gt;</span> (do
+            Inglês quote, que
+            significa citar). O texto que estiver entre <span class="texto-destaque-black">&lt;q&gt;</span> e <span
+                class="texto-destaque-black">&lt;/q&gt;</span> já vai receber automaticamente
+            as aspas, mas não terá nenhum deslocamento. Essa técnica é mais usada quando
+            queremos uma citação no meio de um parágrafo.</p>
+        <p>Também podemos criar citações mais longas (em bloco) e que tenham um parágrafo
+            só para si. Nesse caso, colocaremos tudo dentro de <span
+                class="texto-destaque-black">&lt;blockquote&gt;</span> e <span
+                class="texto-destaque-black">&lt;/blockquote&gt;</span> e o texto ganha um recuo automaticamente.
+            Podemos também colocar um link para o
+            texto original, usando o parâmetro cite dentro da tag.</p>
+    </div>
+    <div class="container">
+        <center>
+            <blockquote cite="https://www.martinsfontespaulista.com.br/php-a-biblia-53304.aspx/p"> O PHP é uma linguagem
+                para a criação de scripts para a web do lado servidor embutidos em HTML, cujo código-font é aberto, e
+                que é
+                compatível com os mais importantes servidores Web (especialmente Apache).
+            </blockquote>
+        </center>
+
+        <h2>Abreviações</h2>
+        <p>Essa é uma novidade da HTML5 e que ajuda muito em áreas como a de Tecnologia,
+            que usa muitas siglas e abreviações. Sempre que você quiser escrever uma sigla, mas
+            deixar claro ao usuário (e aos mecanismos de busca) o significado dela, use a tag
+            <span class="texto-destaque-negrito">&lt;abbr&gt;</span>.
+        </p>
+
+        <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites.</p>
+        <p>Note no código acima que usamos o title para
+            indicar o significado da sigla. Ao lado, mostro
+            o funcionamento desse código no navegador.</p>
+        <center>
+            <img src="./img/fig4.png" width="290" alt="fig4">
+        </center>
+
+        <p>Quando passamos o mouse sobre a sigla
+            abreviada, um pequeno texto aparece com o seu significado.</p>
+        <h2>ODITREVNI OTXET</h2>
+        <p>Não entendeu nada desse título? Pois volte ali em cima e leia da última letra até a primeira. Achou inútil?
+            Eu também. Pois é exatamente essa a função da tag <span class="texto-destaque-negrito">&lt;bdo&gt;</span>.
+        </p>
+        <p>Para começo de conversa, <span class="texto-destaque-bg">BDO</span> significa bi-directional override. Ao
+            usar essa tag,
+            coloque também o parâmetro dir para indicar uma das duas direções possíveis: <br></p>
+            <div class="secao-destaque-html">
+                       <p class="text-html"><ul>
+                            <li class="text-html">rtl = da direita para a esquerda (right-to-left)</li>
+                            <li class="text-html">ltr = da esquerda para a direita (left-to-right)</li>
+                        </ul>
+                        </p>
+                        <p class="text-html">Executando <span class="texto-destaque-negrito">&lt;bdo&gt;</span></p>
+                        <h3 class="text-html">Texto Invertido</h3>
+                        <bdo class="text-html" dir="rtl"><span class="texto-destaque-grifado">Este texto todo está invertido no formato RIGHT-TO-LEFT</span>.
+                        </bdo>
+            </div>
+            <div class="container">
+                <h1>E aí, já acabou?</h1>
+                <p>Nesse capítulo, aprendemos vários tipos de formatação de textos. Mas gostaria de
+                deixar bem claro que existem muitos outros. O que fiz aqui foi uma seleção dos mais
+                usados (e também o <span class="texto-destaque-negrito">&lt;bdo&gt;</span>, que é o mais inútil) e vamos dar prosseguimento na
+                    matéria. Se por acaso, mais pra frente, precisarmos usar alguma outra tag de
+                    formatação de textos, eu explico pontualmente. Combinado?</p>
+<h2>Hora de exercitar</h2>
+<p>Eu já dei esse conselho lá em cima, mas não custa nada repetir. Acesse
+agora mesmo o endereço do  <a href="https://gustavoguanabara.github.io/html-css/exercicios/">nosso repositório público em </a>(<span class="texto-destaque-negrito">https://gustavoguanabara.github.io/html-css/exercicios/</span>) e
+execute o exercício 007 e o exercício 008 no seu computador e tente
+atingir esse mesmo resultado em casa, sem copiar o código que eu
+criei. Nesse momento, a prática é algo que você mais precisa. Se
+por acaso ficar difícil, pode acessar o repositório público de HTML
+e CSS e dar uma olhada nos comandos, mas EVITE COPIAR.</p>
+            </div>
+    </div>
+
+    <div class="container">
+        <h1>Teste seus conhecimentos <br> <img src="./../img/fig13.png" width="100" alt="fig13"></h1>
+        <p>Terminou de ler esse capítulo e já acompanhou todos os vídeos e
+        referências externas que indicamos? Pois agora, responda às
+        seguintes perguntas objetivas e marque em cada uma delas a única
+        opção verdadeira. Aí sim, você vai poder comprovar que realmente
+        entendeu o conteúdo.</p>
+
+    </div>
 
 </body>
 
