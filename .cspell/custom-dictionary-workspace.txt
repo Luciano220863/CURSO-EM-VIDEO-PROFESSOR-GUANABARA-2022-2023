@@ -2,6 +2,7 @@
 aberto
 Abreviações
 abreviada
+abrir
 acabou
 acaso
 aceito
@@ -24,6 +25,7 @@ alunos
 alvo
 ambígua
 América
+Âncoras
 Anéis
 Anel
 aninhada
@@ -51,6 +53,7 @@ atributos
 Atributos
 Atualizar
 aulas
+avisando
 Azkaban
 Banho
 básicos
@@ -161,6 +164,7 @@ eixo
 elaborado
 elemento
 embutidos
+Encerramento
 Encerrando
 então
 entrada
@@ -189,12 +193,15 @@ exercitar
 Exércitos
 explicar
 explico
+externo
+externos
 faça
 faculdade
 família
 favoritas
 fazíamos
 fechamento
+fechar
 Feijão
 Fênix
 Ferro
@@ -264,6 +271,7 @@ Leias
 Leigos
 Leite
 leitura
+LIGA
 ligação
 Ligar
 ligeiramente
@@ -304,6 +312,7 @@ Nesse
 noframe
 normas
 novidade
+novos
 numeração
 numeradas
 numerados
@@ -325,6 +334,7 @@ paciência
 padrão
 Pantera
 paramêtros
+parâmetros
 partir
 passa
 passado
