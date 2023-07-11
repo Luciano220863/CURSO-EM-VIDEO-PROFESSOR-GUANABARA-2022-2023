@@ -17,6 +17,7 @@ Alface
 algarismos
 alinhamento
 Almoçar
+alternando
 ALTERNATIVAS
 alternativo
 alunos
@@ -31,6 +32,7 @@ Antigas
 antigo
 ANTOLOGIAS
 apesar
+apoio
 apontei
 apresentam
 aprovados
@@ -47,11 +49,16 @@ atribuições
 atributo
 atributos
 Atributos
+Atualizar
+aulas
 Azkaban
+Banho
+básicos
 Batalha
 bolinha
 borda
 Botafogo
+Buscar
 cabeçalho
 Cálice
 Câmara
@@ -157,6 +164,7 @@ embutidos
 Encerrando
 então
 entrada
+escola
 Escovar
 escrever
 escritas
@@ -281,6 +289,7 @@ Meus
 Minhas
 miniaplicativo
 minúsculas
+MINUSCÚLOS
 minuto
 mistas
 Misturando
@@ -298,6 +307,7 @@ novidade
 numeração
 numeradas
 numerados
+númerais
 número
 números
 objeto
@@ -340,6 +350,7 @@ prática
 preenchida
 preenchimento
 preferência
+Preparar
 preta
 Primeiro
 Príncipe
@@ -381,8 +392,11 @@ representada
 representar
 Retorno
 reutilizado
+Rever
 romanos
 roteiro
+Sampa
+scopo
 Secreta
 seguem
 seguindo
