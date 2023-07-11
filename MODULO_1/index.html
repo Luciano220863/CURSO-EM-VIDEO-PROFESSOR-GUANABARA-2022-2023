@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../CSS/styleglobal.css">
+    <link rel="shortcut icon" href="./../assets/favicon.ico" type="image/x-icon">
+    <title>M01C09-A01(LISTAS COM HTML5)</title>
+</head>
+
+<body>
+    <div class="container">
+        <h4>M01C09-A01</h4>
+        <h1>M01C09-A01(LISTAS COM HTML5)</h1>
+    </div>
+    <div class="container">
+        <h2>O poder das listas</h2>
+        <p>Pare para pensar por um só minuto: quantas listas você faz na
+            sua vida? Eu, sinceramente não vivo sem listas: a lista do
+            supermercado, lista de tarefas, a lista de chamada dos meus
+            alunos, listas dos conteúdos a trabalhar cada semestre, lista de
+            cursos que quero fazer, lista de cursos que quero produzir.
+            Acho que já deu pra entender, não é?</p>
+        <center><img src="./Capitulo_09/img/fig1.png" width="120" alt="fig1"></center>
+
+        <p>Para quem produz conteúdo, listas também são muito úteis.
+            Elas simplificam e sintetizam o conteúdo a ser passado e faz a demarcação de cada item para facilitar a
+            visualização.</p>
+        <p>Por conta disso, a linguagem HTML disponibiliza vários tipos de lista para produzirmos
+            nosso conteúdo e deixá-lo mais claro e eficiente.</p>
+        <h2>Listas Ordenadas</h2>
+        A HTML chama de <span class="texto-destaque-negrito">ordered lists</span> todas aquelas listas onde a ordem dos
+        itens é algo
+        muito importante. Um passo-a-passo para criar um bolo, uma lista de aprovados no
+        vestibular e uma lista com os carros mais caros do mundo são exemplos de listas
+        ordenadas.
+        <p>Para criar uma ordered list, vamos usar a tag <strong>&lt;ol&gt;</strong> para delimitar a lista e
+            <strong>&lt;li&gt;</strong> (list
+            item) para identificar cada item da lista.
+        </p>
+    </div>
+    <div class="container">
+        <div class="secao-destaque-html">
+            <p>&lt;ol&gt;</p>
+            <p>&lt;li&gt;<span class="text-html">Item 1</span>&lt;/li&gt;</p>
+            <p>&lt;li&gt;<span class="text-html">Item 2</span>&lt;/li&gt;</p>
+            <p>&lt;li&gt;<span class="text-html">Item 3</span>&lt;/li&gt;</p>
+            <p>&lt;li&gt;<span class="text-html">Item 4</span>&lt;/li&gt;</p>
+            <p>&lt;li&gt;<span class="text-html">Item 5</span>&lt;/li&gt;</p>
+            <p>&lt;/ol&gt;</p>
+        </div>
+        <div class="container1">
+            <ol type="a">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ol>
+        </div>
+    </div>
+    <div class="container">
+        <center>
+            <h4>IMPORTANTE!</h4>
+            <img src="./Capitulo_09/img/fig2.png" width="70" alt="fig2">
+        </center>
+        <p>Segundo a <strong>W3C</strong>, a tag <span class="texto-destaque-red">&lt;ol&gt;</span> é de fechamento
+            obrigatório (ou seja, devemos sempre usar <span class="texto-destaque-red">&lt;/ol&gt;</span>. Já a tag
+            <span class="texto-destaque-black">&lt;li&gt;</span> tem
+            seu <ins><strong>fechamento opcional a partir da HTML5</strong></ins>.
+        </p>
+        <p>A tag <span class="texto-destaque-red">&lt;ol&gt;</span> possui um parâmetro type, onde configuramos o tipo
+            de marcador da lista
+            atual. As opções de valores para esse parâmetro são:</p>
+        <p class="texto-destaque-grifado">‣ 1 - Valor padrão. Cria listas numeradas. Ex: 1, 2, 3, 4, …</p>
+        <p class="texto-destaque-grifado">‣ A - Cria listas alfabéticas em maiúsculas. Ex: A, B, C, D, …</p>
+        <p class="texto-destaque-grifado">‣ a - Cria listas alfabéticas em minúsculas. Ex: a, b, c, d, …</p>
+        <p class="texto-destaque-grifado">‣ I - Cria listas com algarismos romanos em maiúsculas. Ex: I, II, III, IV, …
+        </p>
+        <p class="texto-destaque-grifado">‣ i - Cria listas com algarismos romanos em minúsculas. Ex: i, ii, iii, iv, …
+        </p>
+        <h4>Você também pode indicar o início da contagem usando o parâmetro start.</h4>
+        <p>Por exemplo, a tag <strong><mark>&lt;ol type=“I” start=“5”&gt;</mark></strong> gerar itens numerados como
+            <span class="texto-destaque-red"> V, VI, VII, VIII, IX,</span> …
+        </p>
+    </div>
+    <div class="container">
+        <h2>Listas não Ordenadas</h2>
+        <p>Se você compreendeu a criação de listas ordenadas, com certeza vai entender as
+            <strong>unordered lists</strong>também chamadas de listas com marcadores, que são aquelas onde
+            a ordem dos itens não influenciará no significado da lista. Ela é apenas uma ótima
+            maneira para organizar os itens que não apresentam uma classificação
+            necessariamente.
+        </p>
+        <p>Para criar uma unordered list, vamos usar a tag <strong>&lt;ul&gt;</strong> para delimitar a lista e a tag
+            <strong>&lt;li&gt;</strong> para criar cada um dos seus itens internos.
+        </p>
+        <div class="container">
+            <div class="secao-destaque-html">
+                <p>&lt;ul&gt;</p>
+                <p>&lt;li&gt;<span class="text-html">Item 1</span>&lt;/li&gt;</p>
+                <p>&lt;li&gt;<span class="text-html">Item 2</span>&lt;/li&gt;</p>
+                <p>&lt;li&gt;<span class="text-html">Item 3</span>&lt;/li&gt;</p>
+                <p>&lt;li&gt;<span class="text-html">Item 4</span>&lt;/li&gt;</p>
+                <p>&lt;li&gt;<span class="text-html">Item 5</span>&lt;/li&gt;</p>
+                <p>&lt;/ul&gt;</p>
+            </div>
+            <div class="container1">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+            </div>
+        </div>
+        <p>O marcador padrão é a bolinha preta totalmente preenchida (<ins><mark>circle</mark></ins>), mas existe a
+            opção de configurar a propriedade <strong>type</strong> a tag <strong>&lt;ul&gt;</strong> com os seguintes
+            valores:</p>
+
+        <p class="texto-destaque-black">‣ disc - padrão. Uma bola preta totalmente pintada</p>
+        <p class="texto-destaque-black">‣ circle - Uma bola com uma borda preta e sem preenchimento</p>
+        <p class="texto-destaque-black">‣ square - Um pequeno quadrado preto totalmente pintado</p>
+    </div>
+    <div class="container">
+        <h3>Misturando as coisas</h3>
+        <p>Podemos também criar listas mistas, configurando listas dentro de outras listas. Veja
+            o exemplo a seguir:</p>
+        <div class="secao-destaque-html">
+            <span class="text-html">
+                <p span class="text-html">&lt;ol&gt;</p>
+                <p span class="text-html">&lt;li&gt;Item 1&lt;/li&gt;</p>
+                <p span class="text-html">&lt;li&gt;Item 2&lt;/li&gt;</p>
+                <p span class="text-html">&lt;ol type="a"&gt;</p>
+                <p span class="text-html">&lt;li&gt;Item 2.1&lt;/li&gt;</p>
+                <p span class="text-html">&lt;li&gt;Item 2.2&lt;/li&gt;</p>
+                <p span class="text-html">&lt;li&gt;Item 2.3&lt;/li&gt;</p>
+                <p span class="text-html">&lt;/ol&gt;</p>
+                <p span class="text-html">&lt;li&gt;Item 3&lt;/li&gt;</p>
+                <p span class="text-html">&lt;li&gt;Item 4&lt;/li&gt;</p>
+                <p span class="text-html">&lt;li&gt;Item 5&lt;/li&gt;</p>
+                <p span class="text-html">&lt;/ol&gt;</p><br>
+            </span>
+        </div>
+    </div><br>
+    <div class="container">
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <ol type="a"><br>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+                <li>Item 2.3</li>
+            </ol><br>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+        <h5>Note que os itens da lista interna (a, b, c, …) está deslocado para a direita em relação
+            ao item 2, do qual essa sub-lista é filha.</h5>
+
+        <center>
+            <blockquote>
+                <img src="./Capitulo_09/img/fig2.png" width="35" alt="fig2">
+                <mark>DICA</mark>:
+                Além de
+                aninhar listas ordenadas, podemos juntar listas &lt;ul&gt;
+                com &lt;ol&gt; e vice-versa. As listas internas sempre terão deslocamento
+                interno para a direita.
+            </blockquote>
+        </center>
+    </div>
+    <div class="container">
+        <h3>Exercício proposto</h3>
+        <p>Crie seu próprio código e faça a seguinte lista aninhada com seus jogos favoritos ou escolha um tema de sua
+            preferência seguindo o modelo proposto abaixo.</p>
+        <center><img src="./Capitulo_09/img/fig3.png" width="280" alt="fig3"></center>
+        <br>
+
+        <h2>Listas dos meus filmes favoritos</h2>
+        <ul>
+            <li>ANTOLOGIAS - SAGAS
+                <ol>
+                    <li>Harry Porter
+                        <ul>
+                            <li>Harry Potter e a Pedra Filosofal</li>
+                            <li>Harry Potter e a Câmara Secreta</li>
+                            <li>Harry Potter e o Prisioneiro de Azkaban</li>
+                            <li>Harry Potter e o Cálice de Fogo</li>
+                            <li>Harry Potter e a Ordem da Fênix</li>
+                            <li>Harry Potter e o Enigma do Príncipe</li>
+                            <li>Harry Potter e as Relíquias da Morte - Parte 1</li>
+                            <li>Harry Potter e as Relíquias da Morte - Parte 2</li>
+                        </ul>
+                    </li>
+            </li><br>
+            <li>MARVEL
+                <ol>
+                    <li>Vingadores
+                        <ol>
+                            <li>Capitão América: O Primeiro Vingador (1943-1945)</li>
+                            <li>Capitã Marvel (1995)</li>
+                            <li>Homem de Ferro (2010)</li>
+                            <li>Homem de Ferro 2 (2011) </li>
+                            <li>O Incrível Hulk (2011)</li>
+                            <li>Thor (2011)</li>
+                            <li>Os Vingadores (2012)</li>
+                            <li>Homem de Ferro 3 (2012)</li>
+                            <li>Thor: O Mundo Sombrio (2013)</li>
+                            <li>Capitão América: O Soldado Invernal (2014)</li>
+                            <li>Guardiões da Galáxia (2014)</li>
+                            <li>Guardiões da Galáxia Vol. 2 (2014)</li>
+                            <li>Vingadores: Era de Ultron (2015)</li>
+                            <li>Homem-Formiga (2015)</li>
+                            <li>Capitão América: Guerra Civil (2016)</li>
+                            <li>Homem-Aranha: De Volta ao Lar (2016)</li>
+                            <li>Viúva Negra (2016)</li>
+                            <li>Pantera Negra (2016)</li>
+                            <li>Doutor Estranho (2016-2017)</li>
+                            <li>Thor: Ragnarok (2017)</li>
+                            <li>Homem-Formiga e a Vespa (2017)</li>
+                            <li>Vingadores: Guerra Infinita (2017)</li>
+                            <li>Vingadores: Ultimato (2018-2023)</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li> <br>
+            <li>O Senhor dos Anéis / Hobbit
+                <ol>
+                    <ul>
+                        <li> O Hobbit
+                            <ol>
+                                <li>O Hobbit: Uma Jornada Inesperada (2012)</li>
+                                <li>O Hobbit: A Desolação de Smaug (2013)</li>
+                                <li>O Hobbit: a Batalha dos Cinco Exércitos (2014)</li>
+                            </ol>
+                        </li> <br>
+                        <ol>
+                            <ul>
+                                <li>O Senhor dos Anéis
+                                    <ol start="4">
+                                        <li>O Senhor dos Anéis: Os Anéis do Poder (2022)</li>
+                                        <li>O Senhor dos Anéis: A Sociedade do Anel (2001)</li>
+                                        <li>O Senhor dos Anéis: As Duas Torres (2002)</li>
+                                        <li>O Senhor dos Anéis: O Retorno do Rei (2003)</li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </ol>
+                    </ul>
+                </ol>            
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <p>Tenha paciência e dedique-se, com certeza você vai conseguir fazer uma lista como
+        essa aí em cima e vai aprender muito sobre HTML.</p>
+        <h3>Lista de Definições</h3>
+        <p>É como se fosse um dicionário, temos os termos e as suas descrições. É uma lista sem
+        demarcadores, mas bem útil em alguns casos.</p>
+        <p>Toda lista de definições está dentro de uma tag <strong>&lt;dl&gt;</strong> <strong>&lt;/dl&gt;</strong> (definition list) Cada
+        termo é um <strong>&lt;dt&gt;</strong> (definition term) e cada descrição é um
+        <strong>&lt;dd&gt;</strong>definition description).
+            Assim como os itens da lista, essas duas últimas tags possuem fechamento opcional,
+            segundo a referência oficial da HTML5.</p>
+            <p>Vamos ver um exemplo simples que cria uma lista com três definições que já
+            conhecemos bem aqui pelo curso.</p>
+            <div class="container">
+                <div class="secao-destaque-html"><br>
+                    <p class="text-html">&lt;dl&lt;</p>
+                        <p class="text-html">&lt;dt&gt;HTML&lt;/dt&gt;</p>
+                        <p class="text-html">&lt;dd&gt;Linguagem de marcação utilizada para criar o conteúdo de sites.&lt;/dd&gt;</p>
+
+                         <p class="text-html">&lt;dt&gt;CSS&lt;/dt&gt;</p>
+                         <p class="text-html">&lt;dd&gt;Linguagem de marcação para a especificicação de estilos em sites.&lt;/dd&gt;</p>
+
+                         <p class="text-html">&lt;dt&gt;JavaScript&lt;/dt&gt;</p>
+                         <p class="text-html">&lt;dd&gt;Linguagem de programação para criar interatividades em sites.&lt;/dd&gt;</p>
+                    <p class="text-html">&lt;/dl&gt;</p>
+                    <center>
+                        <p>Abaixo temos o resultado do código executado pelo navegador</p>
+                        <h1>&#x1F447</h1>
+                    </center>
+                </div>
+            </div>
+
+            <div class="container">
+                    <dl>
+                        <dt><strong>HTML</strong><dt>
+                        <dd>Linguagem de marcação utilizada para criar o conteúdo de sites.</dd>
+                        <dt><strong>CSS</strong><dt>
+                        <dd>Linguagem de marcação para a especificicação de estilos em sites.</dd>
+                        <dt><strong>JavaScript</strong>dt>
+                        <dd>Linguagem de programação para criar interatividades em sites.</dd>
+                    </dl>
+                    
+            </div>
+            <div class="container">
+                <p>Cada navegador pode mostrar um resultado ligeiramente diferente para listas de
+                definição, mas o que mais importa é o significado desse tipo de listagem, pois ele
+                relaciona diretamente os pares Termo + Descrição e isso nos ajuda bastante com
+                mecanismos de busca</p>
+
+                <h1>Hora de exercitar
+                <center><img src="./Capitulo_09/img/fig4.png" width="100" alt="fig4"></center></h1>
+            </div>
+            <div class="container">
+                <ol>
+                    <li><span class="texto-destaque-red">Em HTML5, temos vários tipos de
+                    lista. Qual dos itens a seguir não é um
+                    tipo de lista suportado pela linguagem?</span><br><br>
+                        <ol type="A">
+                            <li>lista ordenada</li>
+                            <li>lista não ordenada</li>
+                            <li>lista semi ordenada</li>
+                            <li>lista de definição</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">Na construção das listas ordenadas e
+                    nas não ordenadas, o uso de uma das
+                    tags se repete nos dois casos. Que tag é
+                    essa?</span><br><br>
+                        <ol type="A">
+                            <li>&lt;ul&gt;</li>
+                            <li>&lt;ol&gt;</li>
+                            <li>&lt;li&gt;</li>
+                            <li>&lt;dl&gt;</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">Para criar uma lista ordenada,
+                    devemos limitar todos os seus itens
+                    dentro de um par único de tags:</span><br><br>
+                        <ol type="A">
+                            <li>&lt;ol&gt; e &lt;/ol&gt;</li>
+                            <li>&lt;ul&gt; e &lt;/ul&gt;</li>
+                            <li>&lt;dl&gt; e &lt;/dl&gt;</li>
+                            <li>&lt;dt&gt; e &lt;/dt&gt;</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">Segundo as novas normas da W3C,
+                    qual das tags de lista a seguir é a única
+                    que possui fechamento opcional?</span><br><br>
+                        <ol type="A">
+                            <li>&lt;dt&gt;</li>
+                            <li>&lt;dd&gt;</li>
+                            <li>&lt;ol&gt;</li>
+                            <li>&lt;li&gt;</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">Em listas ordenadas, podemos usar o
+                    parâmetro _____ para modificar o
+                    formato da contagem e o parâmetro
+                    ____ para mudar o número inicial da
+                    contagem.</span><br><br>
+                        <ol type="A">
+                            <li>type / init</li>
+                            <li>style / start</li>
+                            <li>type / start</li>
+                            <li>style / init</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">Ao personalizar a numeração de uma
+                    lista ordenada, podemos indicar vários
+                    tipos de contagem. Qual das opções a
+                    seguir é a única que não pode ser usada
+                    para essa personalização?</span><br><br>
+                        <ol type="A">
+                            <li>1</li>
+                            <li>A</li>
+                            <li>I</li>
+                            <li>X</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">Podemos personalizar as listas não
+                    ordenadas, configurando o parâmetro
+                    type da tag <span class="texto-destaque-black">&lt;ul&gt;</span> com alguns valores
+                        especiais. Qual dos elementos a seguir é
+                        o único aceito para modificar o marcador
+                        padrão dos itens?</span><br><br>
+                        <ol type="A">
+                            <li>star</li>
+                            <li>square</li>
+                            <li>rectangle</li>
+                            <li>triangle</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">Todos os elementos de uma lista de
+                    definições devem estar limitados entre o
+                    par de tags:</span><br><br>
+                        <ol type="A">
+                            <li>&lt;dt&gt; e &lt;/dt&gt;</li>
+                            <li>&lt;dd&gt; e &lt;/dd&gt;</li>
+                            <li>&lt;dl&gt; e &lt;/dl&gt;</li>
+                            <li>&lt;dc&gt; e &lt;/dc&gt;</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">A tag <span class="texto-destaque-black">&lt;dt&gt;</span> em uma lista de definição
+                        tem o significado de:</span><br><br>
+                        <ol type="A">
+                            <li>definition term</li>
+                            <li>description text</li>
+                            <li>definition text</li>
+                            <li>description term</li>
+                        </ol>
+                    </li><br><br>
+                    <li><span class="texto-destaque-red">A tag <span class="texto-destaque-black">&lt;dd&gt;</span> em uma lista de
+                        definição tem o significado de:</span><br><br>
+                        <ol type="A">
+                            <li>description definition</li>
+                            <li>definition description</li>
+                            <li>definition detail</li>
+                            <li>detail definition</li>
+                        </ol>
+                    </li><br><br>
+                </ol>
+
+            </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
