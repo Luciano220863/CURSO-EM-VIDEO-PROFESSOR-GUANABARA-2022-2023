@@ -55,6 +55,7 @@ Atualizar
 aulas
 avisando
 Azkaban
+Baixar
 Banho
 básicos
 Batalha
@@ -226,8 +227,10 @@ Gaiden
 Galáxia
 ganha
 gostaria
+gratuito
 Guardiões
 Homem
+Hostnet
 humanos
 ilustrar
 impactadas
@@ -293,7 +296,9 @@ margens
 mecânicas
 mencionar
 mescladas
+meulivro
 Meus
+minha
 Minhas
 miniaplicativo
 minúsculas
@@ -311,6 +316,7 @@ Negra
 Nesse
 noframe
 normas
+nossa
 novidade
 novos
 numeração
@@ -322,6 +328,7 @@ números
 objeto
 obrigatório
 ODITREVNI
+oferecimento
 opcional
 opções
 ordenação
