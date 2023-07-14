@@ -30,6 +30,7 @@ alvo
 ambígua
 América
 âncora
+ancoramento
 Âncoras
 Anéis
 Anel
@@ -102,6 +103,7 @@ citar
 claramente
 classificação
 clica
+clicamos
 codetipo
 codificada
 códigofonte
@@ -142,6 +144,7 @@ copiar
 COPIAR
 Corrigindo
 Cria
+criarmos
 criei
 cujo
 cupiditate
@@ -179,6 +182,7 @@ Desnecessário
 Desolação
 destino
 desuso
+desviado
 desviando
 detalhes
 determinou
@@ -230,6 +234,7 @@ Estranho
 estudano
 ETIQUETAS
 exato
+exceto
 executado
 Executando
 exercitar
@@ -331,6 +336,7 @@ Leias
 Leigos
 Leite
 leitura
+levam
 LIGA
 ligação
 ligações
@@ -357,6 +363,7 @@ marujo
 mecânicas
 mencionar
 mescladas
+metadado
 meulivro
 Meus
 minha
@@ -466,14 +473,18 @@ quase
 rápido
 receber
 receberam
+recomenda
+recomendada
 recomendável
 recuo
 recurso
 referência
+reflang
 regras
 relação
 relaciona
 Relíquias
+rellang
 removeu
 removidos
 renderizar
@@ -499,10 +510,12 @@ seguinte
 seguintes
 seleção
 semestre
+sensível
 sequer
 seremos
 servidores
 siglas
+símbolos
 simplificam
 sinceramente
 sintetizam
@@ -513,7 +526,9 @@ Soldado
 Sombrio
 somos
 sozinho
+subdomínio
 substituidas
+superiores
 suporta
 suportado
 tabela
@@ -544,6 +559,7 @@ usuário
 utilizam
 utilizando
 utilizar
+utilizaremos
 válidos
 valiosa
 valores
