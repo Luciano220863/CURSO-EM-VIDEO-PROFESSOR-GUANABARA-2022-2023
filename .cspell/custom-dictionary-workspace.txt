@@ -150,6 +150,7 @@ comum
 comunicam
 conceitos
 concisa
+configuração
 configurado
 configuramos
 configurando
@@ -602,6 +603,7 @@ Retorno
 reutilizado
 Rever
 robô
+rodapé
 romanos
 roteiro
 Sampa
