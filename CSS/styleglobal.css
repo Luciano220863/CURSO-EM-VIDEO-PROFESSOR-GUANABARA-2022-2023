@@ -6,9 +6,11 @@ mark {
     color: blue;
     background-color: chocolate;
 }
-.texto-destaque-fig{
+
+.texto-destaque-fig {
     font-size: xx-large;
 }
+
 .secao-destaque-html {
     position: relative;
     margin: 0 auto;
@@ -139,26 +141,28 @@ dd {
     font-style: italic;
     font-size: 16px;
     color: darkblue;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 img {
     border-radius: 10px;
 }
 
-del{
+del {
     color: #DC143C;
     font-style: italic;
 }
 
-table, th, td{
+table,
+th,
+td {
     margin: 0 auto;
     position: relative;
     border: solid 2px #000;
     border-collapse: collapse;
 }
 
-td{
+td {
     padding-left: 5px;
     padding-right: 25px;
 
@@ -171,11 +175,23 @@ th {
 }
 
 /*odd aplicado a todos os elementos impares*/
-table tr:nth-child(odd){
+table tr:nth-child(odd) {
     background-color: #808080;
 }
 
 /*even aplicado a todos os elementos pares*/
-table tr:nth-child(even){
+table tr:nth-child(even) {
     background-color: #C0C0C0;
+}
+
+/*footer aplicado para deixar configuração global do rodapé*/
+footer {
+    position: relative;
+    max-width: 990px;
+    background-color: #9c97978e;
+    border-radius: 10px;
+    text-align: center;
+    color: blue;
+    bottom: 0px;
+    margin: 0 auto;
 }
