@@ -50,6 +50,7 @@ aparenta
 apesar
 aplicada
 aplicado
+aplicados
 aplicar
 Aplicativos
 aplicável
@@ -60,6 +61,7 @@ apontei
 APRENDA
 apresentam
 aprovados
+aproveitar
 aquelas
 Aranha
 áreas
@@ -70,6 +72,7 @@ aspas
 assinale
 associação
 Assumindo
+atender
 atendimento
 atingir
 ativa
@@ -79,6 +82,8 @@ atributo
 atributos
 Atributos
 Atualizar
+atualmente
+atuando
 aulas
 autor
 autoridade
@@ -86,6 +91,7 @@ avançada
 avisando
 avisar
 Azkaban
+azul
 baixado
 Baixar
 baixas
@@ -176,6 +182,7 @@ contagem
 contexto
 continha
 continuar
+contratos
 controlar
 convenção
 conversa
@@ -245,6 +252,7 @@ dilema
 diluir
 direções
 direita
+direta
 diretamente
 diretas
 diretórios
@@ -255,6 +263,7 @@ distribuído
 distribuir
 dito
 diversas
+diversos
 divulgue
 dizendo
 documentos
@@ -295,6 +304,7 @@ esquerda
 ESSENCIAIS
 estágio
 estará
+estáticos
 esteja
 estilos
 Estranho
@@ -400,6 +410,7 @@ institucionais
 instrução
 integra
 inteiro
+interação
 interagindo
 interatividade
 interatividades
@@ -449,6 +460,7 @@ linkando
 lista
 listagem
 longas
+longo
 maiúsculas
 Manda
 Manteiga
@@ -511,6 +523,7 @@ objeto
 obra
 obrigatório
 OBSERVAÇÃO
+ocorrência
 ODITREVNI
 oferecimento
 opcional
@@ -551,6 +564,7 @@ perfeitamente
 perfil
 perfis
 pergunte
+período
 permanece
 permanentemente
 permite
@@ -578,12 +592,14 @@ preferência
 preparamos
 Preparar
 presencial
+prestamos
 preta
 Primeiro
 principalmente
 Príncipe
 priorizando
 Prisioneiro
+procedimentos
 Processa
 processo
 procurando
@@ -592,6 +608,7 @@ produtos
 produz
 produzir
 produzirmos
+profissionais
 profissional
 profundas
 programa
@@ -653,6 +670,7 @@ rodapé
 romanos
 roteiro
 Sampa
+satisfação
 scopo
 Secreta
 seguem
@@ -665,6 +683,7 @@ semestre
 sensível
 sequer
 seremos
+serviços
 servidores
 servir
 siglas
@@ -672,10 +691,12 @@ símbolos
 simplificam
 sinceramente
 sintetizam
+sistemas
 Smaug
 SNES
 Sociedade
 Soldado
+solucionadores
 Sombrio
 somos
 sozinho
@@ -699,6 +720,7 @@ tentou
 teoria
 teorias
 terá
+terceirizados
 Teremos
 TERMOLOGIA
 tipos
