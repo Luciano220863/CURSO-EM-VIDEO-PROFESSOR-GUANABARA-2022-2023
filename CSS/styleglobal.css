@@ -189,8 +189,11 @@ table tr:nth-child(even) {
 /*footer aplicado para deixar configuração global do rodapé*/
 footer {
     position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
     max-width: 990px;
-    background-color: #9c97978e;
+    background-color: #4169E1;
+    border: solid 1px #a1a3a5;
     border-radius: 10px;
     text-align: center;
     color: blue;
