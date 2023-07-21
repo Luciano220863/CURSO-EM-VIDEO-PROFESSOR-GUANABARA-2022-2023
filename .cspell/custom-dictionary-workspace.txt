@@ -72,6 +72,7 @@ Arroz
 arrumar
 aspas
 assinale
+Assistência
 associação
 Assumindo
 atender
@@ -163,6 +164,7 @@ comportamentos
 compra
 compreendeu
 computador
+computadores
 comum
 comunicam
 conceitos
@@ -181,6 +183,7 @@ conselho
 construção
 construído
 consultor
+Consultoria
 contagem
 contexto
 continha
@@ -289,6 +292,7 @@ engenheiro
 então
 entrada
 entrei
+Envie
 escola
 Escovar
 escrever
@@ -498,6 +502,7 @@ Misturando
 modelos
 modificar
 monoespaçada
+Montagem
 montar
 Morte
 mostro
@@ -690,6 +695,7 @@ sensível
 sequer
 seremos
 série
+Serviço
 serviços
 servidores
 servir
@@ -748,6 +754,7 @@ tradução
 trajetória
 traz
 Trechos
+troca
 Ultimato
 Ultron
 UNIDAS
