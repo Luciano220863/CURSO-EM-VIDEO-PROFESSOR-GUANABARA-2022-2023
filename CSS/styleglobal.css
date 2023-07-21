@@ -28,6 +28,12 @@ mark {
 
 }
 
+div {
+    position: relative;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
 .container {
     position: relative;
     max-width: 990px;
@@ -44,7 +50,7 @@ h1,
 h2,
 h3 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0;
     padding-bottom: 10px;
     font-weight: bold;
     border: double 3px rgba(105, 105, 105, 0.404);
@@ -57,7 +63,9 @@ h6 {
     text-decoration: underline;
     padding: 5px;
     font-weight: bold;
-    color: blue;
+    color: rgba(244, 244, 248, 0.774);
+    ;
+
 }
 
 p {
@@ -69,7 +77,9 @@ iframe {
 }
 
 .text-html {
-    color: chartreuse;
+    color: rgb(3, 83, 10);
+    font-size: 18px;
+    font-weight: bold;
     margin-left: 25px;
     text-align: left;
     padding-top: 10px;
@@ -142,7 +152,7 @@ dt,
 dd {
     font-style: italic;
     font-size: 16px;
-    color: darkblue;
+    color: rgb(16, 16, 17);
     margin-left: 10px;
 }
 
@@ -196,7 +206,7 @@ footer {
     border: solid 1px #a1a3a5;
     border-radius: 10px;
     text-align: center;
-    color: blue;
+    color: rgb(6, 6, 7);
     bottom: 0px;
     margin: 0 auto;
 }

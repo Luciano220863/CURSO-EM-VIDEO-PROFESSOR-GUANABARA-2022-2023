@@ -12,6 +12,7 @@ acessar
 achar
 Achou
 Acordar
+adicionadas
 adicionamos
 adorando
 adotar
@@ -68,6 +69,7 @@ Aranha
 arquitetura
 Arquitetura
 Arroz
+arrumar
 aspas
 assinale
 associação
@@ -165,6 +167,7 @@ comum
 comunicam
 conceitos
 concisa
+Concluindo
 configuração
 configurado
 configuramos
@@ -589,6 +592,7 @@ Precisando
 preenchida
 preenchimento
 preferência
+preguiça
 preparamos
 Preparar
 presencial
@@ -616,6 +620,7 @@ programação
 programadores
 pronta
 proposto
+propostos
 própria
 propriedade
 propriedades
@@ -680,12 +685,15 @@ seguinte
 seguintes
 seleção
 semestre
+senão
 sensível
 sequer
 seremos
+série
 serviços
 servidores
 servir
+sete
 siglas
 símbolos
 simplificam
